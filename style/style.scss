@@ -139,7 +139,7 @@ nav {
         height: 500px;
         width: 700px;
         background-size: 300%;
-        background-image: url("/assets/images/uvod_background(new).png");
+        background-image: url("/assets/images/uvod\ background.webp");
         border-radius: 0 0 20px 0;
         animation: uvod_pozadi 300s infinite ease;
         
@@ -180,7 +180,7 @@ nav {
 
 /*GITHUB*/
 .animace {
-    background-image: url("/assets/images/uvod_background\(new\).png");
+    background-image: url("/assets/images/uvod\ background.webp");
     border-radius: 20px;
     background-size: 200%;
     animation: uvod_pozadi 300s infinite ease;
@@ -188,7 +188,7 @@ nav {
 
 .github {
     display: flex;
-    background-image: url("/assets/images/github_background(new).png");
+    background-image: url("/assets/images/github\ background.webp");
     background-size: cover;
     width: 1400px;
     height: 600px;

@@ -159,7 +159,7 @@ nav .ja-div img {
   height: 500px;
   width: 700px;
   background-size: 300%;
-  background-image: url("/assets/images/uvod_background(new).png");
+  background-image: url("/assets/images/uvod background.webp");
   border-radius: 0 0 20px 0;
   -webkit-animation: uvod_pozadi 300s infinite ease;
           animation: uvod_pozadi 300s infinite ease;
@@ -210,7 +210,7 @@ nav .ja-div img {
 
 /*GITHUB*/
 .animace {
-  background-image: url("/assets/images/uvod_background(new).png");
+  background-image: url("/assets/images/uvod background.webp");
   border-radius: 20px;
   background-size: 200%;
   -webkit-animation: uvod_pozadi 300s infinite ease;
@@ -221,7 +221,7 @@ nav .ja-div img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: url("/assets/images/github_background(new).png");
+  background-image: url("/assets/images/github background.webp");
   background-size: cover;
   width: 1400px;
   height: 600px;
