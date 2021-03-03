@@ -61,6 +61,9 @@ p {
     width: 550px;
 }
 
+
+/*INDEX*/
+
 /*NAVIGACE*/
 nav {
     font-weight: 500;
@@ -251,6 +254,31 @@ nav {
         height: 100px;
         background-color: $cerna;
     }
+}
+
+
+/*O MNĚ*/
+
+/*KONSTRUKCE (DOČASNĚ)*/
+.vystavba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    flex-direction: column;
+
+    h1 {
+        margin: 0;
+    }
+
+    h2 {
+        padding: 20px 20px;
+        border-radius: 20px;
+        background-image: linear-gradient(to right top, #f89f02, #f28700, #eb6e00, #e35200, #d93202);
+        background-size: 300%;
+        animation: uvod_pozadi 5s infinite;
+    }
+
 }
 
 a {

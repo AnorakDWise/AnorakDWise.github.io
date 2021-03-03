@@ -52,6 +52,7 @@ p #citace {
   width: 550px;
 }
 
+/*INDEX*/
 /*NAVIGACE*/
 nav {
   font-weight: 500;
@@ -320,6 +321,39 @@ nav .ja-div img {
   width: 2px;
   height: 100px;
   background-color: #181818;
+}
+
+/*O MNĚ*/
+/*KONSTRUKCE (DOČASNĚ)*/
+.vystavba {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 150px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.vystavba h1 {
+  margin: 0;
+}
+
+.vystavba h2 {
+  padding: 20px 20px;
+  border-radius: 20px;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#f89f02), color-stop(#f28700), color-stop(#eb6e00), color-stop(#e35200), to(#d93202));
+  background-image: linear-gradient(to right top, #f89f02, #f28700, #eb6e00, #e35200, #d93202);
+  background-size: 300%;
+  -webkit-animation: uvod_pozadi 5s infinite;
+          animation: uvod_pozadi 5s infinite;
 }
 
 a {
