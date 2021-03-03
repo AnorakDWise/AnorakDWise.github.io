@@ -170,6 +170,15 @@ nav .ja-div img {
   width: 350px;
   -webkit-filter: drop-shadow(0px 0px 15px black);
           filter: drop-shadow(0px 0px 15px black);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.uvod .uvod_fotka img:hover {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  width: 370px;
+  cursor: pointer;
 }
 
 /*CHC*/
