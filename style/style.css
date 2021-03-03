@@ -1,0 +1,361 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*TEXTS OPTIONS*/
+h1 {
+  letter-spacing: 1px;
+  font-size: 60px;
+  font-weight: bold;
+  color: #F89F02;
+}
+
+h1 #SB {
+  color: #D97002;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #F81502;
+}
+
+p {
+  font-size: 25px;
+  color: #F0610F;
+}
+
+p #citace {
+  font-style: italic;
+}
+
+/*CONTAINERS OPTIONS*/
+.nav_container {
+  margin: auto;
+  width: 1700px;
+}
+
+.container {
+  margin: auto;
+  width: 1400px;
+}
+
+.uvod_container {
+  margin: auto;
+  width: 550px;
+}
+
+/*NAVIGACE*/
+nav {
+  font-weight: 500;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #202020;
+  border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-filter: drop-shadow(0px 5px 15px black);
+          filter: drop-shadow(0px 5px 15px black);
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  letter-spacing: 1px;
+  display: inline;
+  padding: 20px 100px;
+  font-size: 20px;
+}
+
+nav .ja-div {
+  padding: 20px 50px;
+}
+
+nav .ja-div img {
+  border-radius: 50%;
+  width: 50px;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+}
+
+/*ÚVOD*/
+.uvod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 0px 25px black;
+          box-shadow: 0px 0px 25px black;
+  border-radius: 20px;
+  margin-bottom: 75px;
+}
+
+.uvod .uvod_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #181818;
+  border-radius: 0 0 0 20px;
+  width: 700px;
+  height: 500px;
+}
+
+.uvod .uvod_text hr {
+  background-color: #D93202;
+  height: 2px;
+  width: 550px;
+  border: none;
+}
+
+.uvod .uvod_text h1 {
+  margin-bottom: 20px;
+}
+
+.uvod .uvod_text p {
+  margin-top: 20px;
+}
+
+.uvod .uvod_fotka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+  width: 700px;
+  background-size: 300%;
+  background-image: url("/assets/images/uvod_background(new).png");
+  border-radius: 0 0 20px 0;
+  -webkit-animation: uvod_pozadi 300s infinite ease;
+          animation: uvod_pozadi 300s infinite ease;
+}
+
+.uvod .uvod_fotka img {
+  border-radius: 50%;
+  width: 350px;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+}
+
+/*CHC*/
+.chc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 75px;
+}
+
+.chc .chc_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chc .chc_logo img {
+  width: 300px;
+}
+
+.chc .chc_text {
+  text-align: right;
+}
+
+/*GITHUB*/
+.animace {
+  background-image: url("/assets/images/uvod_background(new).png");
+  border-radius: 20px;
+  background-size: 200%;
+  -webkit-animation: uvod_pozadi 300s infinite ease;
+          animation: uvod_pozadi 300s infinite ease;
+}
+
+.github {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("/assets/images/github_background(new).png");
+  background-size: cover;
+  width: 1400px;
+  height: 600px;
+  border-radius: 20px;
+  margin-bottom: 75px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-shadow: 0px 0px 25px black;
+          box-shadow: 0px 0px 25px black;
+}
+
+.github .github_text {
+  padding: 0px 50px;
+  text-align: right;
+}
+
+/*FOOTER*/
+.pata {
+  background-color: #202020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pata .adresa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pata .socky {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.pata .socky .socky_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.pata .odkazy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pata .odkazy .footer_text {
+  text-align: right;
+}
+
+.pata h2 {
+  margin: 20px 0px;
+}
+
+.pata p {
+  font-size: 20px;
+  margin: 0px 0px 20px 0px;
+}
+
+.pata .ikona {
+  width: 30px;
+  padding: 0px 10px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.pata .ikona:hover {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-filter: opacity(50%);
+          filter: opacity(50%);
+}
+
+.pata .vl {
+  width: 2px;
+  height: 100px;
+  background-color: #181818;
+}
+
+a {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  text-decoration: none;
+  color: #D93202;
+}
+
+a:hover {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: #a82704;
+}
+
+/*ANIMACE*/
+@-webkit-keyframes uvod_pozadi {
+  0% {
+    background-position: left bottom;
+  }
+  50% {
+    background-position: top right;
+  }
+  100% {
+    background-position: left bottom;
+  }
+}
+@keyframes uvod_pozadi {
+  0% {
+    background-position: left bottom;
+  }
+  50% {
+    background-position: top right;
+  }
+  100% {
+    background-position: left bottom;
+  }
+}
+/*# sourceMappingURL=style.css.map */
