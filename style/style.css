@@ -4,7 +4,10 @@ html {
 }
 
 body {
-  background-color: #0f0f0f;
+  background-image: url("/assets/images/background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
   font-family: "Ubuntu", sans-serif;
 }
@@ -348,6 +351,14 @@ header nav .ja-div img {
 
 /*RESPONSIVITY*/
 @media screen and (max-width: 1280px) {
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 15px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .nav_container {
     width: 1060px;
     margin: auto;
@@ -356,7 +367,16 @@ header nav .ja-div img {
     padding: 20px 50px;
   }
   .container {
-    width: px;
+    width: 900px;
+  }
+  .container .uvod_text {
+    width: 450px;
+  }
+  .container .uvod_text hr {
+    width: 325px;
+  }
+  .container .uvod_fotka {
+    width: 450px;
   }
 }
 

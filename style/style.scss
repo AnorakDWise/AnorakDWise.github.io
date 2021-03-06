@@ -13,7 +13,10 @@ html {
 }
 
 body {
-    background-color: #0f0f0f;
+    background-image: url("/assets/images/background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: $bila;
     font-family: $ubuntu;
 }
@@ -281,6 +284,14 @@ header {
 
 /*RESPONSIVITY*/
 @media screen and (max-width: 1280px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
 
     .nav_container {
         width: 1060px;
@@ -292,9 +303,18 @@ header {
     }
 
     .container {
-        width: px;
+        width: 900px;
 
         .uvod_text {
+            width: 450px;
+            
+            hr {
+                width: 325px;
+            }
+        }
+
+        .uvod_fotka {
+            width: 450px;
         }
     }
 }
