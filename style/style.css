@@ -332,6 +332,20 @@ nav .ja-div img {
   background-color: #181818;
 }
 
+/*RESPONSIVITY*/
+@media screen and (max-width: 1280px) {
+  .nav_container {
+    width: 1060px;
+    margin: auto;
+  }
+  .nav_container li {
+    padding: 20px 50px;
+  }
+  .container {
+    width: px;
+  }
+}
+
 /*O MNĚ*/
 /*KONSTRUKCE (DOČASNĚ)*/
 .vystavba {

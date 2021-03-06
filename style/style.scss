@@ -263,6 +263,26 @@ nav {
     }
 }
 
+/*RESPONSIVITY*/
+@media screen and (max-width: 1280px) {
+
+    .nav_container {
+        width: 1060px;
+        margin: auto;
+
+        li {
+            padding: 20px 50px;
+        }
+    }
+
+    .container {
+        width: px;
+
+        .uvod_text {
+        }
+    }
+}
+
 
 /*O MNĚ*/
 
