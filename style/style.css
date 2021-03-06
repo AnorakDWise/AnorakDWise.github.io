@@ -54,9 +54,10 @@ p #citace {
 
 /*INDEX*/
 /*NAVIGACE*/
-nav {
-  font-weight: 500;
+header nav {
+  height: 85px;
   margin-top: 20px;
+  font-weight: 500;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,26 +73,45 @@ nav {
           filter: drop-shadow(0px 5px 15px black);
 }
 
-nav ul {
+header nav ul {
   list-style: none;
 }
 
-nav ul li {
+header nav ul li {
   letter-spacing: 1px;
   display: inline;
   padding: 20px 100px;
   font-size: 20px;
 }
 
-nav .ja-div {
+header nav .ja-div {
   padding: 20px 50px;
 }
 
-nav .ja-div img {
+header nav .ja-div img {
   border-radius: 50%;
   width: 50px;
   -webkit-filter: drop-shadow(0px 0px 15px black);
           filter: drop-shadow(0px 0px 15px black);
+}
+
+/*VÝBĚR JAZYKU*/
+.language-selector {
+  padding: 20px 50px;
+}
+
+.language-selector img {
+  width: 50px;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.language-selector img:hover {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  width: 60px;
 }
 
 /*ÚVOD*/
@@ -192,12 +212,6 @@ nav .ja-div img {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 75px;
-}
-
-.chc .chc_logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .chc .chc_logo img {

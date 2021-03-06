@@ -65,34 +65,52 @@ p {
 /*INDEX*/
 
 /*NAVIGACE*/
-nav {
-    font-weight: 500;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    background-color: $cerna-light;
-    border-radius: 20px;
-    align-items: center;
-    filter: drop-shadow(0px 5px 15px black);
+header {
+    nav {
+        height: 85px;
+        margin-top: 20px;
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        background-color: $cerna-light;
+        border-radius: 20px;
+        align-items: center;
+        filter: drop-shadow(0px 5px 15px black);
 
-    ul {
-        list-style: none;
+        ul {
+            list-style: none;
 
-        li {
-            letter-spacing: 1px;
-            display: inline;
-            padding: 20px 100px;
-            font-size: 20px;
+            li {
+                letter-spacing: 1px;
+                display: inline;
+                padding: 20px 100px;
+                font-size: 20px;
+            }
+        }
+
+        .ja-div {
+            padding: 20px 50px;
+
+            img {
+                border-radius: 50%;
+                width: 50px;
+                filter: drop-shadow(0px 0px 15px black);
+            }
         }
     }
+}
 
-    .ja-div {
-        padding: 20px 50px;
+/*VÝBĚR JAZYKU*/
+.language-selector {
+    padding: 20px 50px;
+    img {
+        width: 50px;
+        filter: drop-shadow(0px 0px 15px black);
+        transition: 0.25s;
 
-        img {
-            border-radius: 50%;
-            width: 50px;
-            filter: drop-shadow(0px 0px 15px black);
+        &:hover {
+            transition: 0.25s;
+            width: 60px;
         }
     }
 }
@@ -166,8 +184,6 @@ nav {
     margin-bottom: 75px;
 
     .chc_logo {
-        display: flex;
-        
         img {
             width: 300px;
         }
