@@ -285,12 +285,11 @@ header {
 /*RESPONSIVITY*/
 @media screen and (max-width: 1280px) {
     h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     p {
-        font-size: 15px;
-        flex-wrap: wrap;
+        font-size: 17px;
     }
 
     .nav_container {
@@ -313,8 +312,21 @@ header {
             }
         }
 
+        .uvod_container {
+            width: 325px;
+        }
+
         .uvod_fotka {
             width: 450px;
+
+            img {
+                width: 280px;
+            }
+        }
+
+        .github {
+            width: 900px;
+            height: 386px;
         }
     }
 }

@@ -352,12 +352,10 @@ header nav .ja-div img {
 /*RESPONSIVITY*/
 @media screen and (max-width: 1280px) {
   h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   p {
-    font-size: 15px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    font-size: 17px;
   }
   .nav_container {
     width: 1060px;
@@ -375,8 +373,18 @@ header nav .ja-div img {
   .container .uvod_text hr {
     width: 325px;
   }
+  .container .uvod_container {
+    width: 325px;
+  }
   .container .uvod_fotka {
     width: 450px;
+  }
+  .container .uvod_fotka img {
+    width: 280px;
+  }
+  .container .github {
+    width: 900px;
+    height: 386px;
   }
 }
 
