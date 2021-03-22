@@ -331,6 +331,102 @@ header {
     }
 }
 
+@media screen and (min-width: 2560px) {
+    .language-selector {
+        img {
+            width: 60px;
+        }
+    }
+
+    header {
+        nav {
+            height: 100px;
+            
+            a {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .chc {
+        .chc_logo {
+            img {
+                width: 500px;
+            }
+        }
+
+        .chc_text {
+            img {
+                width: 150px;
+            }
+        }
+    }
+    .github {
+        width: 2180px;
+        height: 934px;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    .pata {
+
+        h2 {
+            font-size: 30px;
+        }
+
+        .footer_text {
+            font-size: 25px;
+        }
+
+        .socky {
+            .socky_div {
+                .ikony {
+                    img {
+                        width: 60px;
+                    }
+                }
+            }
+        }
+    }
+
+    p {
+        font-size: 43px;
+    }
+
+    .nav_container {
+        width: 2340px;
+    }
+
+    .uvod_container {
+        width: 900px;
+    }
+
+    .container {
+        width: 2180px;
+
+        .uvod_text {
+            width: 1090px;
+            height: 700px;
+
+            hr {
+                width: 900px;
+            }
+        }
+
+        .uvod_fotka {
+            width: 1090px;
+            height: 700px;
+
+            img {
+                width: 500px;
+            }
+        }
+    }
+
+
+}
 
 /*O MNĚ*/
 

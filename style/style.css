@@ -388,6 +388,66 @@ header nav .ja-div img {
   }
 }
 
+@media screen and (min-width: 2560px) {
+  .language-selector img {
+    width: 60px;
+  }
+  header nav {
+    height: 100px;
+  }
+  header nav a {
+    font-size: 30px;
+  }
+  .chc .chc_logo img {
+    width: 500px;
+  }
+  .chc .chc_text img {
+    width: 150px;
+  }
+  .github {
+    width: 2180px;
+    height: 934px;
+  }
+  h1 {
+    font-size: 100px;
+  }
+  .pata h2 {
+    font-size: 30px;
+  }
+  .pata .footer_text {
+    font-size: 25px;
+  }
+  .pata .socky .socky_div .ikony img {
+    width: 60px;
+  }
+  p {
+    font-size: 43px;
+  }
+  .nav_container {
+    width: 2340px;
+  }
+  .uvod_container {
+    width: 900px;
+  }
+  .container {
+    width: 2180px;
+  }
+  .container .uvod_text {
+    width: 1090px;
+    height: 700px;
+  }
+  .container .uvod_text hr {
+    width: 900px;
+  }
+  .container .uvod_fotka {
+    width: 1090px;
+    height: 700px;
+  }
+  .container .uvod_fotka img {
+    width: 500px;
+  }
+}
+
 /*O MNĚ*/
 /*KONSTRUKCE (DOČASNĚ)*/
 .vystavba {
