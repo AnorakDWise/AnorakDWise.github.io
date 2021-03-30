@@ -91,7 +91,7 @@ header {
             }
         }
 
-        .ja-div {
+        .language-selector {
             padding: 20px 50px;
 
             img {
@@ -426,6 +426,29 @@ header {
     }
 
 
+}
+
+@media screen and (max-width: 375px) {
+    .nav_container {
+        width: 360px;
+
+        nav {
+            flex-wrap: wrap;
+            .language-selector {
+                padding-left: 10px;
+
+                img {
+                    width: 45px;
+                }
+            }
+            ul {
+                li {
+                    padding: 20px 5px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
 }
 
 /*O MNĚ*/

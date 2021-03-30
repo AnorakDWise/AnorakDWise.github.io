@@ -87,11 +87,11 @@ header nav ul li {
   font-size: 20px;
 }
 
-header nav .ja-div {
+header nav .language-selector {
   padding: 20px 50px;
 }
 
-header nav .ja-div img {
+header nav .language-selector img {
   border-radius: 50%;
   width: 50px;
   -webkit-filter: drop-shadow(0px 0px 15px black);
@@ -445,6 +445,26 @@ header nav .ja-div img {
   }
   .container .uvod_fotka img {
     width: 500px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .nav_container {
+    width: 360px;
+  }
+  .nav_container nav {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .nav_container nav .language-selector {
+    padding-left: 10px;
+  }
+  .nav_container nav .language-selector img {
+    width: 45px;
+  }
+  .nav_container nav ul li {
+    padding: 20px 5px;
+    font-size: 15px;
   }
 }
 
