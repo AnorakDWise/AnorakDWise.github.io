@@ -428,6 +428,10 @@ header {
 
 }
 
+@media screen and (max-width: 1440px) {
+    width: 1220px;
+}
+
 @media screen and (max-width: 375px) {
     .nav_container {
         width: 360px;
