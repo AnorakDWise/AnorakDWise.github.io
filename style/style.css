@@ -510,8 +510,8 @@ header nav .language-selector img {
   }
 }
 
-/*O MNĚ*/
-/*KONSTRUKCE (DOČASNĚ)*/
+/*<-- O MNĚ -->*/
+/*KONSTRUKCE (DOČASNĚ) -->*/
 .vystavba {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -543,6 +543,7 @@ header nav .language-selector img {
           animation: uvod_pozadi 5s infinite;
 }
 
+/*<--*/
 a {
   -webkit-transition: 0.25s;
   transition: 0.25s;
@@ -579,4 +580,6 @@ a:hover {
     background-position: left bottom;
   }
 }
+
+/*<--*/
 /*# sourceMappingURL=style.css.map */

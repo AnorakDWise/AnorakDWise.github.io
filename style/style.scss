@@ -283,7 +283,7 @@ header {
 }
 
 /*RESPONSIVITY*/
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) /*HD*/ {
     h1 {
         font-size: 40px;
     }
@@ -331,7 +331,7 @@ header {
     }
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 2560px) /*2K*/ {
     .language-selector {
         img {
             width: 60px;
@@ -428,7 +428,7 @@ header {
 
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) /*Mac*/ {
     h1 {
         font-size: 50px;
     }
@@ -485,7 +485,7 @@ header {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) /*iPhone X*/ {
     .nav_container {
         width: 360px;
 
@@ -508,9 +508,9 @@ header {
     }
 }
 
-/*O MNĚ*/
+/*<-- O MNĚ -->*/
 
-/*KONSTRUKCE (DOČASNĚ)*/
+/*KONSTRUKCE (DOČASNĚ) -->*/
 .vystavba {
     display: flex;
     align-items: center;
@@ -531,6 +531,7 @@ header {
     }
 
 }
+/*<--*/
 
 a {
     transition: 0.25s;
@@ -555,3 +556,4 @@ a {
         background-position: left bottom;
     }
 }
+/*<--*/
