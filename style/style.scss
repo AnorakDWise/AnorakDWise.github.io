@@ -265,7 +265,7 @@ header {
     }
 
     .ikona {
-        width: 30px;
+        width: 40px;
         padding: 0px 10px;
         transition: 0.25s;
 
@@ -322,11 +322,6 @@ header {
             img {
                 width: 280px;
             }
-        }
-
-        .github {
-            width: 900px;
-            height: 386px;
         }
     }
 }
@@ -490,7 +485,6 @@ header {
         width: 360px;
 
         nav {
-            flex-wrap: wrap;
             .language-selector {
                 padding-left: 10px;
 
