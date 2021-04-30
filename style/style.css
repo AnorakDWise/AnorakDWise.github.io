@@ -39,6 +39,19 @@ p #citace {
   font-style: italic;
 }
 
+a {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  text-decoration: none;
+  color: #D93202;
+}
+
+a:hover {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: #a82704;
+}
+
 /*CONTAINERS OPTIONS*/
 .nav_container {
   margin: auto;
@@ -491,14 +504,46 @@ header nav .language-selector img {
     width: 360px;
   }
   .nav_container nav .language-selector {
-    padding-left: 10px;
+    padding: 0px;
   }
   .nav_container nav .language-selector img {
     width: 45px;
   }
+  .nav_container nav ul {
+    display: none;
+  }
   .nav_container nav ul li {
-    padding: 20px 5px;
+    padding: 0px 2px;
     font-size: 15px;
+  }
+  .nav_container nav .burger {
+    border: 1px solid #D93202;
+    border-radius: 8px;
+  }
+  .nav_container nav .burger:hover {
+    border: 1px solid #a82704;
+  }
+  .nav_container nav .burger div {
+    width: 30px;
+    height: 3px;
+    background-color: #D93202;
+    margin: 8px;
+    border-radius: 8px;
+  }
+  .nav_container nav .burger div:hover {
+    background-color: #a82704;
+  }
+  .uvod {
+    display: none;
+  }
+  .chc {
+    display: none;
+  }
+  .animace {
+    display: none;
+  }
+  .pata {
+    display: none;
   }
 }
 
@@ -536,19 +581,6 @@ header nav .language-selector img {
 }
 
 /*<--*/
-a {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
-  text-decoration: none;
-  color: #D93202;
-}
-
-a:hover {
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
-  color: #a82704;
-}
-
 /*ANIMACE*/
 @-webkit-keyframes uvod_pozadi {
   0% {

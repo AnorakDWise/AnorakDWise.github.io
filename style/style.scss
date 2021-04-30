@@ -48,6 +48,17 @@ p {
     color: #F0610F;
 }
 
+a {
+    transition: 0.25s;
+    text-decoration: none;
+    color: #D93202;
+
+    &:hover {
+        transition: 0.25s;
+        color: #a82704;
+    }
+}
+
 /*CONTAINERS OPTIONS*/
 .nav_container {
     margin: auto;
@@ -486,19 +497,51 @@ header {
 
         nav {
             .language-selector {
-                padding-left: 10px;
-
+                padding: 0px;
                 img {
                     width: 45px;
                 }
             }
             ul {
+                display: none;
                 li {
-                    padding: 20px 5px;
+                    padding: 0px 2px;
                     font-size: 15px;
                 }
             }
+            .burger {
+                border: 1px solid #D93202;
+                border-radius: 8px;
+
+                &:hover {
+                    border: 1px solid #a82704;
+                }
+                div {
+                    width: 30px;
+                    height: 3px;
+                    background-color: #D93202;
+                    margin: 8px;
+                    border-radius: 8px;
+
+                    &:hover {
+                        background-color: #a82704;
+                    }
+                }
+            }
         }
+    }
+    .uvod {
+        display: none;
+    }
+
+    .chc {
+        display: none;
+    }
+    .animace {
+        display: none;
+    }
+    .pata {
+        display: none;
     }
 }
 
@@ -526,17 +569,6 @@ header {
 
 }
 /*<--*/
-
-a {
-    transition: 0.25s;
-    text-decoration: none;
-    color: #D93202;
-
-    &:hover {
-        transition: 0.25s;
-        color: #a82704;
-    }
-}
 
 /*ANIMACE*/
 @keyframes uvod_pozadi {
