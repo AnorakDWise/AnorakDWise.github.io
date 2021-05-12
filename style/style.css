@@ -17,22 +17,28 @@ h1 {
   letter-spacing: 1px;
   font-size: 60px;
   font-weight: bold;
-  color: #F89F02;
+  color: #f89f02;
 }
 
 h1 #SB {
-  color: #D97002;
+  color: #d97002;
 }
 
 h2 {
   font-size: 25px;
   font-weight: bold;
-  color: #F81502;
+  color: #f81502;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #d93202;
 }
 
 p {
   font-size: 25px;
-  color: #F0610F;
+  color: #f0610f;
 }
 
 p #citace {
@@ -43,7 +49,7 @@ a {
   -webkit-transition: 0.25s;
   transition: 0.25s;
   text-decoration: none;
-  color: #D93202;
+  color: #d93202;
 }
 
 a:hover {
@@ -172,7 +178,7 @@ header nav .burger {
 }
 
 .uvod .uvod_text hr {
-  background-color: #D93202;
+  background-color: #d93202;
   height: 2px;
   width: 550px;
   border: none;
@@ -366,6 +372,128 @@ header nav .burger {
   background-color: #181818;
 }
 
+/*O MNĚ*/
+/*CZECH-FRENCH*/
+.czech-french {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.czech-french .zivot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.czech-french .zivot img {
+  width: 500px;
+}
+
+.czech-french .zivot p {
+  width: 500px;
+  text-align: left;
+}
+
+/*MOJE ZÁJMY - BANNERY*/
+.interest-banners {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.interest-banners .banners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.interest-banners .banners .banner {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-image: url("/assets/images/banner background.png");
+  border-radius: 20px;
+  height: 700px;
+  width: 400px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+  cursor: default;
+}
+
+.interest-banners .banners .banner:hover {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-animation: banner_lightning 3s ease infinite;
+          animation: banner_lightning 3s ease infinite;
+}
+
+.interest-banners .banners .banner .banner-content {
+  padding: 20px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.interest-banners .banners .banner .banner-content h3 {
+  text-align: center;
+  background-color: #181818;
+  padding: 10px 3px;
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+}
+
+.interest-banners .banners .banner .banner-content .banner-obrazek {
+  text-align: center;
+}
+
+.interest-banners .banners .banner .banner-content .banner-obrazek img {
+  padding: 0px 0px 40px 0px;
+  width: 200px;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+}
+
+.interest-banners .banners .banner .banner-content p {
+  padding-bottom: 30px;
+}
+
+.interest-banners .banners .banner .banner-content .button {
+  text-align: center;
+}
+
+.interest-banners .banners .banner .banner-content .button .learn-button {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #f81502;
+  padding: 15px 20px;
+  font-size: 25px;
+  border-radius: 50px;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+}
+
+.interest-banners .banners .banner .banner-content .button .learn-button:hover {
+  background-color: #ab0e01;
+  color: #b2b2b2;
+}
+
 /*RESPONSIVITY*/
 @media screen and (max-width: 1280px) {
   h1 {
@@ -521,7 +649,7 @@ header nav .burger {
     font-size: 15px;
   }
   .nav_container nav .burger {
-    border: 1px solid #D93202;
+    border: 1px solid #d93202;
     border-radius: 8px;
   }
   .nav_container nav .burger:hover {
@@ -530,7 +658,7 @@ header nav .burger {
   .nav_container nav .burger div {
     width: 30px;
     height: 3px;
-    background-color: #D93202;
+    background-color: #d93202;
     margin: 8px;
     border-radius: 8px;
   }
@@ -551,7 +679,6 @@ header nav .burger {
   }
 }
 
-/*<-- O MNĚ -->*/
 /*KONSTRUKCE (DOČASNĚ) -->*/
 .vystavba {
   display: -webkit-box;
@@ -606,6 +733,36 @@ header nav .burger {
   }
   100% {
     background-position: left bottom;
+  }
+}
+
+@-webkit-keyframes banner_lightning {
+  0% {
+    -webkit-filter: drop-shadow(0px 0px 5px #F89F02);
+            filter: drop-shadow(0px 0px 5px #F89F02);
+  }
+  50% {
+    -webkit-filter: drop-shadow(0px 0px 15px #D97002);
+            filter: drop-shadow(0px 0px 15px #D97002);
+  }
+  100% {
+    -webkit-filter: drop-shadow(0px 0px 5px #F89F02);
+            filter: drop-shadow(0px 0px 5px #F89F02);
+  }
+}
+
+@keyframes banner_lightning {
+  0% {
+    -webkit-filter: drop-shadow(0px 0px 5px #F89F02);
+            filter: drop-shadow(0px 0px 5px #F89F02);
+  }
+  50% {
+    -webkit-filter: drop-shadow(0px 0px 15px #D97002);
+            filter: drop-shadow(0px 0px 15px #D97002);
+  }
+  100% {
+    -webkit-filter: drop-shadow(0px 0px 5px #F89F02);
+            filter: drop-shadow(0px 0px 5px #F89F02);
   }
 }
 

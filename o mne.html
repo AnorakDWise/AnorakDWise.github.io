@@ -28,10 +28,154 @@
     <title>About me</title>
   </head>
   <body>
-    <div class="vystavba">
-      <a href="/index.html"><h2>Back to the Home page</h2></a>
-      <img src="/assets/icons/konstrukce.svg" />
-      <h1>Still building it for You!</h1>
-    </div>
+    <header class="nav_container">
+      <nav>
+        <div class="language-selector">
+          <a href="index-cs.html" alt="Czech version of the web"
+            ><span title="Česky"><img src="/assets/icons/cs.svg" /></span
+          ></a>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="o mne.html">About me</a></li>
+          <li><a href="kontakt.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="burger-line1"></div>
+          <div class="burger-line2"></div>
+          <div class="burger-line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="czech-french container">
+      <h1>About <span id="SB">me</span></h1>
+      <div class="zivot">
+        <img src="assets/images/chat bubbles.webp" />
+        <p>
+          So, I was born in Czechia in the city Uherské Hradiště in 2005. Then I
+          travelled with my family to France, where I lived the next 10years. I
+          moved there when I was barely 1year, so from the beginning, I was
+          surrounded with French talking people. Thanks to that, I talk fluently
+          French, also because I'm half French and half Czech.<br /><br />Then,
+          after 10years, I went back to Czechia and there I am to this day!
+        </p>
+      </div>
+    </section>
+
+    <section class="interest-banners container">
+      <div class="banners">
+          <div class="banner">
+            <div class="banner-content">
+              <h3>Favorite movies/series</h3>
+              <div class="banner-obrazek">
+                <img src="assets/icons/cinema.webp" />
+              </div>
+              <p>
+                Do I like movies? Of course! Who doesn't? And I also have a
+                small list of one of my favorite movies and series, check it
+                out!
+              </p>
+              <div class="button">
+                <a class="learn-button" href="#">Learn more</a>
+              </div>
+            </div>
+          </div>
+        <div class="banner">
+          <div class="banner-content">
+            <h3>Favorite videogames</h3>
+            <div class="banner-obrazek">
+              <img src="assets/icons/controller.webp" />
+            </div>
+            <p>
+              Yeah, I'm a gamer too! I love playing videogames of all kinds! You can find one of my favorites by clicking the button below.
+            </p>
+            <div class="button">
+              <a class="learn-button" href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="banner">
+          <div class="banner-content">
+            <h3>Favorite tools</h3>
+            <div class="banner-obrazek">
+              <img src="assets/icons/tools.webp" />
+            </div>
+            <p>
+              How did I made this beautiful web? Well I have some magic tools that help me, maybe you'll ikle som of them, check them out!
+            </p>
+            <div class="button">
+              <a class="learn-button" href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pata nav_container">
+      <div class="adresa">
+        <h2>Adress</h2>
+        <br />
+        <p class="footer_text">
+          Praporce 1122<br />Mařatice<br />Uherké Hradiště
+        </p>
+      </div>
+      <div class="vl"></div>
+      <div class="socky">
+        <div class="socky_div">
+          <h2>Where can you follow me?</h2>
+          <div class="ikony">
+            <a
+              href="https://www.facebook.com/profile.php?id=100009208417974"
+              target="_blank"
+              alt="Facebook"
+              ><span title="Facebook"
+                ><img class="ikona" src="assets/icons/fb.png" /></span
+            ></a>
+            <a
+              href="https://www.instagram.com/gregory.stehlik/"
+              target="_blank"
+              alt="Instagram"
+              ><span title="Instagram"
+                ><img class="ikona" src="assets/icons/insta.png" /></span
+            ></a>
+            <a
+              href="https://twitter.com/Leon_Buffard"
+              target="_blank"
+              alt="Twitter"
+              ><span title="Twitter"
+                ><img class="ikona" src="assets/icons/twitter.png" /></span
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="vl"></div>
+      <div class="odkazy">
+        <h2>Other links</h2>
+        <p class="footer_text">
+          <a href="o mne.html" alt="About me">About me</a><br />
+          <a href="kontakt.html" alt="Contact">Contact</a><br /><a
+            href="index.html"
+            alt="Home"
+            >Home</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!--Vanilla tilt script-->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".banner"), {
+        max: 5,
+        speed: 1000,
+      });
+    </script>
+    <script type="text/javascript">
+          VanillaTilt.init(document.querySelectorAll(".banner-content"), {
+            max: 5,
+            speed: 1000,
+          });
+    </script>
   </body>
 </html>
