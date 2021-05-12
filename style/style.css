@@ -430,8 +430,8 @@ header nav .burger {
 }
 
 .interest-banners .banners .banner:hover {
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 40px;
   -webkit-transition: 0.25s;
   transition: 0.25s;
   -webkit-animation: banner_lightning 3s ease infinite;

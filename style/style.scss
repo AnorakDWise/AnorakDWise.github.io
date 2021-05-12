@@ -346,8 +346,8 @@ header {
       cursor: default;
 
       &:hover {
-        margin-top: 10px;
-        margin-bottom: 30px;
+        margin-top: 0px;
+        margin-bottom: 40px;
         transition: 0.25s;
         animation: banner_lightning 3s ease infinite;
       }
