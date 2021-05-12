@@ -74,19 +74,19 @@ header nav {
   height: 85px;
   margin-top: 20px;
   font-weight: 500;
+  background-color: #202020;
+  border-radius: 20px;
+  -webkit-filter: drop-shadow(0px 5px 15px black);
+          filter: drop-shadow(0px 5px 15px black);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #202020;
-  border-radius: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-filter: drop-shadow(0px 5px 15px black);
-          filter: drop-shadow(0px 5px 15px black);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header nav ul {
@@ -94,8 +94,8 @@ header nav ul {
 }
 
 header nav ul li {
-  letter-spacing: 1px;
   display: inline;
+  letter-spacing: 1px;
   padding: 20px 100px;
   font-size: 20px;
 }
@@ -109,6 +109,10 @@ header nav .language-selector img {
   width: 50px;
   -webkit-filter: drop-shadow(0px 0px 15px black);
           filter: drop-shadow(0px 0px 15px black);
+}
+
+header nav .burger {
+  display: none;
 }
 
 /*VÝBĚR JAZYKU*/
