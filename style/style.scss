@@ -81,6 +81,11 @@ a {
   width: 550px;
 }
 
+.interest_container {
+  margin: auto;
+  padding: 0px 30px;
+}
+
 /*INDEX*/
 
 /*NAVIGACE*/
@@ -302,7 +307,6 @@ header {
   }
 }
 
-
 /*O MNĚ*/
 
 /*CZECH-FRENCH*/
@@ -400,6 +404,66 @@ header {
       }
     }
   }
+}
+
+/*FILMY/SERIÁLY*/
+.movies-series {
+  background-color: #181818;
+  margin-top: 20px;
+  border-radius: 20px;
+  filter: drop-shadow(0px 0px 15px black);
+
+    .back {
+      padding: 10px 30px;
+        p {
+          display: inline-flex;
+          align-items: center;
+          color: $bila;
+          font-size: 25px;
+          background-color: #f81502;
+          padding: 10px 15px;
+          border-radius: 50px;
+          transition: 0.25s;
+
+          &:hover {
+            background-color: #ab0e01;
+            color: #b2b2b2;
+            transition: 0.25s;
+
+            img {
+              opacity: 60%;
+              transition: 0.25s;
+            }
+          }
+          
+          img {
+            transition: 0.25s;
+            width: 32px;
+            padding-right: 10px;
+          }
+        }
+    }
+
+    .interest_container {
+      h1 {
+        margin: 0;
+      }
+
+      .interest-text {
+        margin: 20px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        img {
+          width: 500px;
+        }
+
+        p {
+          width: 500px;
+        }
+      }
+    }
 }
 
 /*RESPONSIVITY*/
@@ -695,15 +759,15 @@ header {
 
 @keyframes banner_lightning {
   0% {
-    filter: drop-shadow(0px 0px 5px #F89F02);
+    filter: drop-shadow(0px 0px 5px #f89f02);
   }
 
   50% {
-    filter: drop-shadow(0px 0px 15px #D97002);
+    filter: drop-shadow(0px 0px 15px #d97002);
   }
 
   100% {
-    filter: drop-shadow(0px 0px 5px #F89F02);
+    filter: drop-shadow(0px 0px 5px #f89f02);
   }
 }
 

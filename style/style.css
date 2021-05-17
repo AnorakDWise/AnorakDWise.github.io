@@ -74,6 +74,11 @@ a:hover {
   width: 550px;
 }
 
+.interest_container {
+  margin: auto;
+  padding: 0px 30px;
+}
+
 /*INDEX*/
 /*NAVIGACE*/
 header nav {
@@ -494,6 +499,79 @@ header nav .burger {
   color: #b2b2b2;
 }
 
+/*FILMY/SERIÁLY*/
+.movies-series {
+  background-color: #181818;
+  margin-top: 20px;
+  border-radius: 20px;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+}
+
+.movies-series .back {
+  padding: 10px 30px;
+}
+
+.movies-series .back p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 25px;
+  background-color: #f81502;
+  padding: 10px 15px;
+  border-radius: 50px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.movies-series .back p:hover {
+  background-color: #ab0e01;
+  color: #b2b2b2;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.movies-series .back p:hover img {
+  opacity: 60%;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.movies-series .back p img {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  width: 32px;
+  padding-right: 10px;
+}
+
+.movies-series .interest_container h1 {
+  margin: 0;
+}
+
+.movies-series .interest_container .interest-text {
+  margin: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.movies-series .interest_container .interest-text img {
+  width: 500px;
+}
+
+.movies-series .interest_container .interest-text p {
+  width: 500px;
+}
+
 /*RESPONSIVITY*/
 @media screen and (max-width: 1280px) {
   h1 {
@@ -738,31 +816,31 @@ header nav .burger {
 
 @-webkit-keyframes banner_lightning {
   0% {
-    -webkit-filter: drop-shadow(0px 0px 5px #F89F02);
-            filter: drop-shadow(0px 0px 5px #F89F02);
+    -webkit-filter: drop-shadow(0px 0px 5px #f89f02);
+            filter: drop-shadow(0px 0px 5px #f89f02);
   }
   50% {
-    -webkit-filter: drop-shadow(0px 0px 15px #D97002);
-            filter: drop-shadow(0px 0px 15px #D97002);
+    -webkit-filter: drop-shadow(0px 0px 15px #d97002);
+            filter: drop-shadow(0px 0px 15px #d97002);
   }
   100% {
-    -webkit-filter: drop-shadow(0px 0px 5px #F89F02);
-            filter: drop-shadow(0px 0px 5px #F89F02);
+    -webkit-filter: drop-shadow(0px 0px 5px #f89f02);
+            filter: drop-shadow(0px 0px 5px #f89f02);
   }
 }
 
 @keyframes banner_lightning {
   0% {
-    -webkit-filter: drop-shadow(0px 0px 5px #F89F02);
-            filter: drop-shadow(0px 0px 5px #F89F02);
+    -webkit-filter: drop-shadow(0px 0px 5px #f89f02);
+            filter: drop-shadow(0px 0px 5px #f89f02);
   }
   50% {
-    -webkit-filter: drop-shadow(0px 0px 15px #D97002);
-            filter: drop-shadow(0px 0px 15px #D97002);
+    -webkit-filter: drop-shadow(0px 0px 15px #d97002);
+            filter: drop-shadow(0px 0px 15px #d97002);
   }
   100% {
-    -webkit-filter: drop-shadow(0px 0px 5px #F89F02);
-            filter: drop-shadow(0px 0px 5px #F89F02);
+    -webkit-filter: drop-shadow(0px 0px 5px #f89f02);
+            filter: drop-shadow(0px 0px 5px #f89f02);
   }
 }
 
