@@ -304,16 +304,6 @@ header nav .burger {
           align-items: center;
 }
 
-.pata .adresa {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 .pata .socky {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -324,24 +314,7 @@ header nav .burger {
 }
 
 .pata .socky .socky_div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   text-align: center;
-}
-
-.pata .odkazy {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .pata .odkazy .footer_text {
@@ -499,8 +472,8 @@ header nav .burger {
   color: #b2b2b2;
 }
 
-/*FILMY/SERIÁLY*/
-.movies-series {
+/*ZÁJMY*/
+.interest {
   background-color: #181818;
   margin-top: 20px;
   border-radius: 20px;
@@ -508,11 +481,11 @@ header nav .burger {
           filter: drop-shadow(0px 0px 15px black);
 }
 
-.movies-series .back {
+.interest .back {
   padding: 10px 30px;
 }
 
-.movies-series .back p {
+.interest .back p {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -526,33 +499,35 @@ header nav .burger {
   border-radius: 50px;
   -webkit-transition: 0.25s;
   transition: 0.25s;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
 }
 
-.movies-series .back p:hover {
+.interest .back p:hover {
   background-color: #ab0e01;
   color: #b2b2b2;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
 
-.movies-series .back p:hover img {
+.interest .back p:hover img {
   opacity: 60%;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
 
-.movies-series .back p img {
+.interest .back p img {
   -webkit-transition: 0.25s;
   transition: 0.25s;
   width: 32px;
   padding-right: 10px;
 }
 
-.movies-series .interest_container h1 {
+.interest .interest_container h1 {
   margin: 0;
 }
 
-.movies-series .interest_container .interest-text {
+.interest .interest_container .interest-text {
   margin: 20px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -564,12 +539,23 @@ header nav .burger {
       justify-content: space-around;
 }
 
-.movies-series .interest_container .interest-text img {
+.interest .interest_container .interest-text img {
+  width: 500px;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+}
+
+.interest .interest_container .interest-text p {
   width: 500px;
 }
 
-.movies-series .interest_container .interest-text p {
-  width: 500px;
+.interest .interest_container .interest-text p a {
+  font-size: 25px;
+  color: #f0610f;
+}
+
+.interest .interest_container .interest-text p a:hover {
+  cursor: pointer;
 }
 
 /*RESPONSIVITY*/

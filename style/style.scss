@@ -258,23 +258,16 @@ header {
   justify-content: space-around;
   align-items: center;
 
-  .adresa {
-    @include footer_column();
-  }
-
   .socky {
     justify-content: flex-start;
     align-items: flex-start;
 
     .socky_div {
-      @include footer_column();
       text-align: center;
     }
   }
 
   .odkazy {
-    @include footer_column();
-
     .footer_text {
       text-align: right;
     }
@@ -406,64 +399,75 @@ header {
   }
 }
 
-/*FILMY/SERIÁLY*/
-.movies-series {
+/*ZÁJMY*/
+.interest {
   background-color: #181818;
   margin-top: 20px;
   border-radius: 20px;
   filter: drop-shadow(0px 0px 15px black);
 
-    .back {
-      padding: 10px 30px;
-        p {
-          display: inline-flex;
-          align-items: center;
-          color: $bila;
-          font-size: 25px;
-          background-color: #f81502;
-          padding: 10px 15px;
-          border-radius: 50px;
-          transition: 0.25s;
+  .back {
+    padding: 10px 30px;
+    p {
+      display: inline-flex;
+      align-items: center;
+      color: $bila;
+      font-size: 25px;
+      background-color: #f81502;
+      padding: 10px 15px;
+      border-radius: 50px;
+      transition: 0.25s;
+      filter: drop-shadow(0px 0px 15px black);
 
-          &:hover {
-            background-color: #ab0e01;
-            color: #b2b2b2;
-            transition: 0.25s;
-
-            img {
-              opacity: 60%;
-              transition: 0.25s;
-            }
-          }
-          
-          img {
-            transition: 0.25s;
-            width: 32px;
-            padding-right: 10px;
-          }
-        }
-    }
-
-    .interest_container {
-      h1 {
-        margin: 0;
-      }
-
-      .interest-text {
-        margin: 20px 0px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+      &:hover {
+        background-color: #ab0e01;
+        color: #b2b2b2;
+        transition: 0.25s;
 
         img {
-          width: 500px;
+          opacity: 60%;
+          transition: 0.25s;
         }
+      }
 
-        p {
-          width: 500px;
+      img {
+        transition: 0.25s;
+        width: 32px;
+        padding-right: 10px;
+      }
+    }
+  }
+
+  .interest_container {
+    h1 {
+      margin: 0;
+    }
+
+    .interest-text {
+      margin: 20px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      img {
+        width: 500px;
+        filter: drop-shadow(0px 0px 15px black);
+      }
+
+      p {
+        width: 500px;
+
+        a {
+          font-size: 25px;
+          color: #f0610f;
+
+          &:hover {
+            cursor: pointer;
+          }
         }
       }
     }
+  }
 }
 
 /*RESPONSIVITY*/

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KJFB453BET"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-KJFB453BET");
+    </script>
+    <script>
+      var jump = new Audio();
+      jump.src = "/assets/misc/jump.mp3";
+    </script>
+    <link rel="icon" href="/assets/icons/info.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+  </head>
+  <body>
+    <section class="interest container">
+      <div class="back">
+        <a href="o mne.html">
+          <p><img src="assets/icons/back.svg" /> Back</p>
+        </a>
+      </div>
+
+      <div class="interest_container">
+        <h1>
+          My favorite <span id="SB">videogames</span>
+        </h1>
+
+        <div class="interest-text">
+          <p><i>Finally... after 1year, I loaded the game...</i><br><br>
+          I think you already know which game I mean right? Grand Theft Auto V! I was playing this game since its release in 2014.</p>
+          <img src="assets/images/Grand Theft Auto V.webp">
+        </div>
+
+        <div class="interest-text">
+          <img src="assets/images/Resident Evil 2.webp">
+          <p><i>Our business is life itself.</i><br><br>Resident Evil 2: Remake is just a great game in almost any way. After I played it for the first time, I just fell in love.</p>
+        </div>
+
+        <div class="interest-text">
+          <p><i>It's a Me, <a onmousedown="jump.play()"><!--Woah, You found an easter egg!-->Mario!</a></i><br><br>Super Mario Bros was the first videogame I played by myself and I played it 24/7 on my Nintendo DS as a child. It's a game which will be in my heart forever.</p>
+          <img src="assets/images/Mario.webp">
+        </div>
+      </div>
+    </section>
+
+    <!--Vanilla tilt script-->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".interest-text img"), {
+        max: 5,
+        speed: 1000,
+      });
+    </script>
+  </body>
+</html>
