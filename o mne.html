@@ -65,22 +65,21 @@
 
     <section class="interest-banners container">
       <div class="banners">
-          <div class="banner">
-            <div class="banner-content">
-              <h3>Favorite movies/series</h3>
-              <div class="banner-obrazek">
-                <img src="assets/icons/cinema.webp" />
-              </div>
-              <p>
-                Do I like movies? Of course! Who doesn't? And I also have a
-                small list of one of my favorite movies and series, check it
-                out!
-              </p>
-              <div class="button">
-                <a class="learn-button" href="movies.html">Learn more</a>
-              </div>
+        <div class="banner">
+          <div class="banner-content">
+            <h3>Favorite movies/series</h3>
+            <div class="banner-obrazek">
+              <img src="assets/icons/cinema.webp" />
+            </div>
+            <p>
+              Do I like movies? Of course! Who doesn't? And I also have a small
+              list of one of my favorite movies and series, check it out!
+            </p>
+            <div class="button">
+              <a class="learn-button" href="movies.html">Learn more</a>
             </div>
           </div>
+        </div>
         <div class="banner">
           <div class="banner-content">
             <h3>Favorite videogames</h3>
@@ -88,7 +87,8 @@
               <img src="assets/icons/controller.webp" />
             </div>
             <p>
-              Yeah, I'm a gamer too! I love playing videogames of all kinds! You can find one of my favorites by clicking the button below.
+              Yeah, I'm a gamer too! I love playing videogames of all kinds! You
+              can find one of my favorites by clicking the button below.
             </p>
             <div class="button">
               <a class="learn-button" href="videogames.html">Learn more</a>
@@ -102,12 +102,27 @@
               <img src="assets/icons/tools.webp" />
             </div>
             <p>
-              How did I made this beautiful web? Well I have some magic tools that help me, maybe you'll ikle som of them, check them out!
+              How did I made this beautiful web? Well I have some magic tools
+              that help me, maybe you'll ikle som of them, check them out!
             </p>
             <div class="button">
               <a class="learn-button" href="tools.html">Learn more</a>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="my-projects container">
+      <h1>My <span id="SB">school projects</span></h1>
+
+      <div class="web-cards">
+        <div class="web-card CHC">
+          <a href="assets/misc/CHC Projekt/index.html" target="_blank">
+            <div class="blur">
+              <p>My first website</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -147,7 +162,7 @@
                 ><img class="ikona" src="assets/icons/twitter.png" /></span
             ></a>
           </div>
-          <br>
+          <br />
           <p class="footer_text">&copy;Grégory Wilhelm Stehlík Buffard</p>
         </div>
       </div>
@@ -174,10 +189,16 @@
       });
     </script>
     <script type="text/javascript">
-          VanillaTilt.init(document.querySelectorAll(".banner-content"), {
+      VanillaTilt.init(document.querySelectorAll(".banner-content"), {
+        max: 5,
+        speed: 1000,
+      });
+    </script>
+        <script type="text/javascript">
+          VanillaTilt.init(document.querySelectorAll(".web-card"), {
             max: 5,
             speed: 1000,
           });
-    </script>
+        </script>
   </body>
 </html>
