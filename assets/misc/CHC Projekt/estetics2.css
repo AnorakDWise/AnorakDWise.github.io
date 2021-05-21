@@ -1,0 +1,153 @@
+@font-face {
+  font-family: SF-Pro-Display-Regular;
+  src: url(SF-Pro-Display-Regular.otf);
+}
+
+@font-face {
+  font-family: SF-Pro-Display-Bold;
+  src: url(SF-Pro-Display-Bold.otf);
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #F23634;
+  border: 3px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 48px;
+}
+
+#header a, #header span {
+  display: inline-block;
+  padding: 16px 32px;
+  color: white;
+  min-width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#header a:hover, #header span:hover {
+  background-color: #FFFFFF40;
+}
+
+h1 {
+  color: white;
+  font-family: SF-Pro-Display-Bold, Arial, serif;
+  font-size: 50px;
+  text-shadow: 7px 5px 5px #000000;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #F23634;
+  font-size: 40px;
+  transition: ease 2s;
+}
+
+
+.rychle-info {
+  margin-top: 500px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+body {
+  --padding: 32px;
+  padding: calc(48px + var(--padding)) var(--padding);
+  font-family: SF-Pro-Display-Regular, Arial, serif;
+  background: url(https://wallpapercave.com/wp/wp2757874.gif);
+}
+
+article {
+  display: block;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+article section {
+  text-align: center;
+  color: white;
+  max-width: 700px;
+  font-size: 25px;
+}
+article img{
+transition: ease 1s;
+}
+
+.uklizecka {
+  clear: both;
+}
+
+.copyright {
+  color: white;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  box-sizing: border-box;
+}
+#center {
+  max-width: 1080px;
+  margin: auto;
+  height: 100%;
+}
+.boutmy {
+text-align: center;
+color: white;
+max-width: 700px;
+font-size: 25px;
+}
+.nice {
+border-radius: 2%;
+max-width: 700px;
+margin-right: 5px;
+align-items: center;
+}
+.nice:hover {
+  opacity: 0.6;
+  filter: blur(2px);
+  transition: ease .25s;
+}
+
+.superdévoluy:hover {
+  opacity: 0.6;
+  filter:blur(2px);
+  transition: ease .25s;
+}
+
+.superdévoluy {
+border-radius: 2%;
+max-width: 700px;
+margin-left: 5px;
+align-items: center;
+margin-top: 5px;
+}
+.overlay {
+  color: white;
+  position: absolute;
+  background: $bg;
+}
+.hobbies {
+color: white;
+font-size: 25px;
+text-align:left;
+}
+h3 {
+  margin-left: 70px;
+    text-align: left;
+    color: #F23634;
+    font-size: 40px;
+}
+li {
+  margin-left: 60px;
+  color: white;
+  font-size: 25px;
+  text-align:left;
+}

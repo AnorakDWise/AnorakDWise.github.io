@@ -558,6 +558,88 @@ header nav .burger {
   cursor: pointer;
 }
 
+/*MOJE PROJEKTY*/
+.my-projects {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-projects h1 {
+  margin: 0px 0px 10px 0px;
+}
+
+.my-projects .web-cards {
+  margin: 10px 0px 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.my-projects .web-cards .web-card {
+  border-radius: 20px;
+  width: 400px;
+  height: 300px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.my-projects .web-cards .web-card:hover {
+  -webkit-animation: banner_lightning 3s infinite ease;
+          animation: banner_lightning 3s infinite ease;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.my-projects .web-cards .web-card .blur {
+  background-color: rgba(63, 63, 63, 0.15);
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0%;
+}
+
+.my-projects .web-cards .web-card .blur:hover {
+  background-color: rgba(63, 63, 63, 0.15);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  background-size: cover;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  opacity: 100%;
+}
+
+.my-projects .web-cards .web-card .blur p {
+  font-weight: bold;
+  font-size: 30px;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+  background-color: #181818;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.my-projects .web-cards .CHC {
+  background-image: url("/assets/images/CHC projekt.webp");
+}
+
 /*RESPONSIVITY*/
 @media screen and (max-width: 1280px) {
   h1 {

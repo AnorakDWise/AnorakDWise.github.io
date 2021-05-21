@@ -1,0 +1,164 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 20px auto;
+    width: 960px;
+    background-color: lightgrey;
+    line-height: 1.5;
+}
+
+#ikona {
+    height: 64px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    text-align: center;
+    color: blue;
+    transition: 0.25s;
+    display: inline-block;
+}
+
+.t3 {
+    text-align: center;
+}
+
+h3:hover {
+    color: red;
+    transition: 0.25s;
+    cursor: default;
+}
+
+p {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#O1 {
+    background-color: white;
+    color: rgb(82, 82, 82);
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    border: 1px dashed rgb(121, 121, 121);
+}
+
+#O2 {
+    background-color: white;
+    color: rgb(82, 82, 82);
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    border: 1px dashed rgb(121, 121, 121);
+}
+
+div:hover {
+    cursor: default;
+}
+
+#OB1 {
+    float: left;
+    padding-right: 5px;
+}
+
+#OB2 {
+    float: right;
+    padding-left: 5px;
+}
+
+#OB3 {
+    padding-right: 5px;
+}
+
+#OB4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#OB5 {
+    padding-left: 5px;
+}
+
+.OBRAZKY {
+    text-align: center;
+}
+
+.VICE {
+    background-color: rgb(101, 150, 223);
+    color: white;
+    padding: 10px 5px 5px 10px;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: 0.25s;
+}
+
+.VICE:visited {
+    background-color: rgb(157, 211, 255);
+}
+
+.VICE:hover {
+    background-color: rgb(153, 153, 153);
+    transition: 0.25s;
+}
+
+.VICE:active {
+    background-color: rgb(177, 77, 177);
+}
+
+#O3 {
+    background-color: white;
+    color: rgb(82, 82, 82);
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    border: 1px dashed rgb(121, 121, 121);
+}
+
+.DM {
+    background-color: rgb(34, 34, 34);
+    padding: 10px 5px 5px 10px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 7px;
+    color: white;
+}
+
+.DMDIV {
+    padding-bottom: 20px;
+}
+
+.DM:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+footer {
+    text-align: center;
+}
+
+.cervena {
+    color: red;
+}
+
+.purple {
+    color: rgb(255, 0, 255);
+}

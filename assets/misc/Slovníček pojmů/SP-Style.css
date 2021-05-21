@@ -1,0 +1,96 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right top, #242424, #323232, #404040, #4f4f4f, #5e5e5e);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+table:hover {
+    cursor: default;
+}
+
+table {
+    color: white;
+    background-color: #313131;
+    font-size: 20px;
+    margin: auto;
+    border-collapse: collapse;
+    border: solid 2px black;
+}
+
+th {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    border: solid 1px black;
+}
+
+td {
+    padding: 10px 15px 10px 15px;
+    border: solid 1px black;
+}
+
+td:nth-child(2) {
+    font-style: italic;
+}
+
+td:nth-child(1) {
+    text-align: center;
+}
+
+tr {
+    transition: 0.25s;
+}
+
+tr:hover {
+    transition: 0.25s;
+    background-color: rgb(78, 78, 78);
+}
+
+img {
+    height: 300px;
+    border-radius: 7px;
+}
+
+.obrazek1 {
+    color: white;
+    float: left;
+    margin-left: 15%;
+}
+
+.obrazek2 {
+    color: white;
+    float: right;
+    margin-right: 15%;
+}
+
+p {
+    text-align: center;
+}
+
+p:hover {
+    cursor: default;
+}
+
+footer {
+    text-align: center;
+}
