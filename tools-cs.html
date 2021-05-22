@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KJFB453BET"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-KJFB453BET");
+    </script>
+    <script>
+      var jump = new Audio();
+      jump.src = "/assets/misc/jump.mp3";
+    </script>
+    <link rel="icon" href="/assets/icons/info.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O mně</title>
+  </head>
+  <body>
+    <section class="interest container">
+      <div class="back">
+        <a href="o mne-cs.html">
+          <p><img src="assets/icons/back.svg" /> Zpět</p>
+        </a>
+      </div>
+
+      <div class="interest_container">
+          <div class="interest-text">
+              <img src="assets/images/Photoshop.webp">
+              <p><i>Budu to muset zPhotoshopovat...</i><br><br>Photoshop je můj primární nástroj pro tvorbu projektů, dokonce i tohoto! Také ho i užívám k úpravě fotek co fotím.</p>
+          </div>
+
+          <div class="interest-text">
+              <p><i>Lmao, xD.</i><br><br>Tento nástroj, mám ze všech nejradši. Adobe XD je jednoduchý, rychlý a intuitivní. Tvořím zde koncepty ať už čehokoliv, od webových stránek až po PDFka.</p>
+              <img src="assets/images/xd.webp">
+          </div>
+
+          <div class="interest-text">
+              <img src="assets/images/music.webp">
+              <p><i>Hudba je nejlepší.</i><br><br>Pro mě je hudba nejkrásnější nástroj. Dodává mi energií při práci a dostanu se díky ní do správné nálady.</p>
+          </div>
+      </div>
+    </section>
+
+    <!--Vanilla tilt script-->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".interest-text img"), {
+        max: 5,
+        speed: 1000,
+      });
+    </script>
+  </body>
+</html>
