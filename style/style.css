@@ -565,11 +565,11 @@ header nav .burger {
 }
 
 .my-projects h1 {
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 30px 0px;
 }
 
 .my-projects .web-cards {
-  margin: 10px 0px 10px 0px;
+  margin: 30px 0px 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -579,9 +579,15 @@ header nav .burger {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.my-projects .web-cards .web-card {
+.my-projects .web-cards .card-element {
+  text-align: center;
+}
+
+.my-projects .web-cards .card-element .web-card {
   border-radius: 20px;
   width: 400px;
   height: 300px;
@@ -589,15 +595,33 @@ header nav .burger {
   transition: 0.25s;
 }
 
-.my-projects .web-cards .web-card:hover {
+.my-projects .web-cards .card-element .web-card p {
+  font-weight: bold;
+  font-size: 30px;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+  background-color: #181818;
+  padding: 10px 10px;
+  border-radius: 10px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.my-projects .web-cards .card-element .web-card p:hover {
+  color: #d93202;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.my-projects .web-cards .card-element .web-card:hover {
   -webkit-animation: banner_lightning 3s infinite ease;
           animation: banner_lightning 3s infinite ease;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
 
-.my-projects .web-cards .web-card .blur {
-  background-color: rgba(63, 63, 63, 0.15);
+.my-projects .web-cards .card-element .web-card .blur {
+  background-color: rgba(63, 63, 63, 0);
   width: 400px;
   height: 300px;
   border-radius: 20px;
@@ -616,28 +640,43 @@ header nav .burger {
   opacity: 0%;
 }
 
-.my-projects .web-cards .web-card .blur:hover {
+.my-projects .web-cards .card-element .web-card .blur:hover {
   background-color: rgba(63, 63, 63, 0.15);
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
-  background-size: cover;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
   -webkit-transition: 0.25s;
   transition: 0.25s;
   opacity: 100%;
 }
 
-.my-projects .web-cards .web-card .blur p {
-  font-weight: bold;
-  font-size: 30px;
+.my-projects .web-cards .card-element .web-card .blur img {
+  width: 150px;
   -webkit-filter: drop-shadow(0px 0px 15px black);
           filter: drop-shadow(0px 0px 15px black);
-  background-color: #181818;
-  padding: 10px 10px;
-  border-radius: 10px;
 }
 
 .my-projects .web-cards .CHC {
   background-image: url("/assets/images/CHC projekt.webp");
+}
+
+.my-projects .web-cards .australia {
+  background-image: url("/assets/images/Austrálie.webp");
+}
+
+.my-projects .web-cards .lorem {
+  background-image: url("/assets/images/Lorem Ipsum.webp");
+}
+
+.my-projects .web-cards .developers {
+  background-image: url("/assets/images/Vývojáři 1.C.webp");
+}
+
+.my-projects .web-cards .slovnik {
+  background-image: url("/assets/images/Slovníček pojmů.webp");
+}
+
+.my-projects .web-cards .weather {
+  background-image: url("/assets/images/Počasí.webp");
 }
 
 /*RESPONSIVITY*/
