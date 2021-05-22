@@ -351,13 +351,13 @@ header nav .burger {
 }
 
 /*O MNĚ*/
-/*CZECH-FRENCH*/
-.czech-french {
+/*SUMMARIZE*/
+.summarize {
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
-.czech-french .zivot {
+.summarize .zivot {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -369,11 +369,11 @@ header nav .burger {
           justify-content: space-between;
 }
 
-.czech-french .zivot img {
+.summarize .zivot img {
   width: 500px;
 }
 
-.czech-french .zivot p {
+.summarize .zivot p {
   width: 500px;
   text-align: left;
 }
@@ -569,7 +569,7 @@ header nav .burger {
 }
 
 .my-projects .web-cards {
-  margin: 30px 0px 10px 0px;
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -585,6 +585,7 @@ header nav .burger {
 
 .my-projects .web-cards .card-element {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .my-projects .web-cards .card-element .web-card {
