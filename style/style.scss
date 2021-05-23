@@ -426,10 +426,6 @@ header {
 
   .back {
     padding: 10px 30px;
-
-    &:hover {
-      cursor: pointer;
-    }
     
     p {
       display: inline-flex;
@@ -446,6 +442,7 @@ header {
         background-color: #ab0e01;
         color: #b2b2b2;
         transition: 0.25s;
+        cursor: pointer;
 
         img {
           opacity: 60%;
