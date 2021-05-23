@@ -426,6 +426,11 @@ header {
 
   .back {
     padding: 10px 30px;
+
+    &:hover {
+      cursor: pointer;
+    }
+    
     p {
       display: inline-flex;
       align-items: center;

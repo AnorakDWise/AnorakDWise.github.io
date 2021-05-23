@@ -503,6 +503,10 @@ header nav .burger {
   padding: 10px 30px;
 }
 
+.interest .back:hover {
+  cursor: pointer;
+}
+
 .interest .back p {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
