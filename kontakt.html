@@ -35,20 +35,81 @@
             ><span title="Česky"><img src="/assets/icons/cs.svg" /></span
           ></a>
         </div>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="o mne.html">About me</a></li>
-            <li><a href="kontakt.html">Contact</a></li>
-          </ul>
-          <div class="burger">
-            <div class="burger-line1"></div>
-            <div class="burger-line2"></div>
-            <div class="burger-line3"></div>
-          </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="o mne.html">About me</a></li>
+          <li><a href="kontakt.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="burger-line1"></div>
+          <div class="burger-line2"></div>
+          <div class="burger-line3"></div>
+        </div>
       </nav>
     </header>
 
+    <form action="validace.html">
+      <div class="formular container">
+        <h1>Send me a <span id="SB">message</span>!</h1>
 
+        <div class="name">
+          <label for="jmeno">Your name:</label><br />
+          <input
+            type="text"
+            id="jmeno"
+            name="jmeno"
+            placeholder="First name and last name" required
+          />
+        </div>
+
+        <div class="e-mail">
+          <label for="email">Your e-mail address:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your@email.com" required
+          />
+        </div>
+
+        <div class="subject">
+          <label for="predmet">Message subject:</label><br />
+          <input
+            type="text"
+            id="predmet"
+            name="predmet"
+            placeholder="Any subject" required
+          />
+        </div>
+
+        <div class="message">
+          <label for="zprava">Your message:</label><br />
+          <textarea
+            id="zprava"
+            name="zprava"
+            placeholder="Hello, ..." required
+          ></textarea>
+        </div>
+
+        <div class="submit-reset">
+          <input
+            class="Submit"
+            type="submit"
+            id="odeslat"
+            name="odeslat"
+            value="Submit"
+          />
+
+          <input
+            class="Reset"
+            type="reset"
+            id="smazat"
+            name="smazat"
+            value="Erase"
+          />
+        </div>
+      </div>
+    </form>
 
     <footer class="pata nav_container">
       <div class="adresa">
@@ -93,8 +154,8 @@
       <div class="odkazy">
         <h2>Other links</h2>
         <p class="footer_text">
-          <a href="index.html" alt="Home">Home</a><br>
-          <a href="o mne.html" alt="About me">About me</a><br>
+          <a href="index.html" alt="Home">Home</a><br />
+          <a href="o mne.html" alt="About me">About me</a><br />
           <a href="kontakt.html" alt="Contact">Contact</a>
         </p>
       </div>

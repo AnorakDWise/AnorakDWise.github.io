@@ -24,16 +24,28 @@ h1 #SB {
   color: #d97002;
 }
 
+h1:hover {
+  cursor: default;
+}
+
 h2 {
   font-size: 25px;
   font-weight: bold;
   color: #f81502;
 }
 
+h2:hover {
+  cursor: default;
+}
+
 h3 {
   font-size: 30px;
   font-weight: bold;
   color: #d93202;
+}
+
+h3:hover {
+  cursor: default;
 }
 
 p {
@@ -43,6 +55,10 @@ p {
 
 p #citace {
   font-style: italic;
+}
+
+p:hover {
+  cursor: default;
 }
 
 a {
@@ -682,6 +698,183 @@ header nav .burger {
 
 .my-projects .web-cards .weather {
   background-image: url("/assets/images/Počasí.webp");
+}
+
+/*KONTAKT*/
+/*FORMULÁŘ*/
+.formular {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("/assets/images/form.webp");
+  width: 800px;
+  height: 900px;
+  border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+}
+
+.formular h1 {
+  font-size: 50px;
+  margin: 0px 0px 10px 0px;
+  background-color: #202020;
+  padding: 10px 20px;
+  border-radius: 20px;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+}
+
+.formular div {
+  margin: 20px 0px 20px 0px;
+}
+
+.formular div label {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  color: #f0610f;
+  font-weight: bold;
+}
+
+.formular div input {
+  height: 30px;
+  background-color: #202020;
+  border: none;
+  width: 500px;
+  border-radius: 30px;
+  margin: 10px 0px 0px 0px;
+}
+
+.formular div input[id="zprava"] {
+  height: 200px;
+}
+
+.formular div input[placeholder] {
+  padding: 10px 15px;
+  color: #f89f02;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+.formular .submit-reset {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.formular .submit-reset input {
+  width: auto;
+  text-align: left;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  padding: 15px 20px;
+  height: auto;
+  font-weight: bold;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.formular .submit-reset input:hover {
+  cursor: pointer;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.formular .submit-reset .Submit {
+  background-color: #f89f02;
+  margin-right: 10px;
+  color: #202020;
+}
+
+.formular .submit-reset .Submit:hover {
+  background-color: #bb7600;
+  color: #181818;
+}
+
+.formular .submit-reset .Reset {
+  background-color: #d93202;
+  color: white;
+  margin-left: 10px;
+}
+
+.formular .submit-reset .Reset:hover {
+  background-color: #ac2500;
+  color: #c0c0c0;
+}
+
+.formular textarea {
+  color: #f89f02;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  height: 200px;
+  background-color: #202020;
+  border: none;
+  width: 500px;
+  border-radius: 30px;
+  margin-top: 10px;
+  resize: none;
+}
+
+.formular textarea[placeholder] {
+  padding: 10px 15px;
+}
+
+.validace {
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.validace img {
+  width: 200px;
+}
+
+.validace h1 {
+  text-align: center;
+}
+
+.validace a {
+  margin-top: 20px;
+  color: white;
+  background-color: #F81502;
+  font-size: 35px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-filter: drop-shadow(0px 0px 15px black);
+          filter: drop-shadow(0px 0px 15px black);
+}
+
+.validace a:hover {
+  background-color: #c01000;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: #c0c0c0;
 }
 
 /*RESPONSIVITY*/

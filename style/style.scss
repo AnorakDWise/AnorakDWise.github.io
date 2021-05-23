@@ -31,18 +31,30 @@ h1 {
   #SB {
     color: #d97002;
   }
+
+  &:hover {
+    cursor: default;
+  }
 }
 
 h2 {
   font-size: 25px;
   font-weight: bold;
   color: #f81502;
+
+  &:hover {
+    cursor: default;
+  }
 }
 
 h3 {
   font-size: 30px;
   font-weight: bold;
   color: #d93202;
+
+  &:hover {
+    cursor: default;
+  }
 }
 
 p {
@@ -52,6 +64,10 @@ p {
 
   font-size: 25px;
   color: #f0610f;
+
+  &:hover {
+    cursor: default;
+  }
 }
 
 a {
@@ -568,6 +584,156 @@ header {
 
     .weather {
       background-image: url("/assets/images/Počasí.webp");
+    }
+  }
+}
+
+/*KONTAKT*/
+
+/*FORMULÁŘ*/
+.formular {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/assets/images/form.webp");
+  width: 800px;
+  height: 900px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0px 0px 15px black);
+
+  h1 {
+    font-size: 50px;
+    margin: 0px 0px 10px 0px;
+    background-color: $cerna-light;
+    padding: 10px 20px;
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 15px black);
+  }
+
+  div {
+    margin: 20px 0px 20px 0px;
+
+    label {
+      font-family: $ubuntu;
+      font-size: 20px;
+      color: #f0610f;
+      font-weight: bold;
+    }
+
+    input {
+      height: 30px;
+      background-color: $cerna-light;
+      border: none;
+      width: 500px;
+      border-radius: 30px;
+      margin: 10px 0px 0px 0px;
+    }
+
+    input[id="zprava"] {
+      height: 200px;
+    }
+
+    input[placeholder] {
+      padding: 10px 15px;
+      color: #f89f02;
+      font-family: $ubuntu;
+      font-size: 20px;
+    }
+  }
+
+  .submit-reset {
+    display: inline-flex;
+
+      input {
+        width: auto;
+        text-align: left;
+        font-family: $ubuntu;
+        font-size: 20px;
+        padding: 15px 20px;
+        height: auto;
+        font-weight: bold;
+        filter: drop-shadow(0px 0px 15px black);
+        transition: 0.25s;
+
+        &:hover {
+          cursor: pointer;
+          transition: 0.25s;
+        }
+      }
+
+      .Submit {
+        background-color: #f89f02;
+        margin-right: 10px;
+        color: $cerna-light;
+
+        &:hover {
+          background-color: #bb7600;
+          color: $cerna;
+        }
+      }
+
+      .Reset {
+        background-color: #d93202;
+        color: $bila;
+        margin-left: 10px;
+
+        &:hover {
+          background-color: #ac2500;
+          color: #c0c0c0;
+        }
+      }
+  }
+
+  textarea {
+    color: #f89f02;
+    font-family: $ubuntu;
+    font-size: 20px;
+    height: 200px;
+    background-color: $cerna-light;
+    border: none;
+    width: 500px;
+    border-radius: 30px;
+    margin-top: 10px;
+    resize: none;
+  }
+
+  textarea[placeholder] {
+    padding: 10px 15px;
+  }
+}
+
+.validace {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    width: 200px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  a {
+    margin-top: 20px;
+    color: $bila;
+    background-color: #F81502;
+    font-size: 35px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: 0.25s;
+    filter: drop-shadow(0px 0px 15px black);
+
+    &:hover {
+      background-color: #c01000;
+      transition: 0.25s;
+      color: #c0c0c0;
     }
   }
 }
