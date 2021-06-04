@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -48,7 +52,7 @@
       </nav>
     </header>
 
-    <form id="formular" method="post" action="/form_handler.php">
+    <form id="formular" method="POST" action="/form_handler.php">
       <div class="formular container">
         <h1>Send me a <span id="SB">message</span>!</h1>
 
