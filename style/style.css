@@ -861,7 +861,7 @@ header nav .burger {
 .validace a {
   margin-top: 20px;
   color: white;
-  background-color: #F81502;
+  background-color: #f81502;
   font-size: 35px;
   padding: 10px 15px;
   border-radius: 20px;
@@ -1015,7 +1015,7 @@ header nav .burger {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1170px) {
   .nav_container {
     width: 360px;
   }
@@ -1031,46 +1031,18 @@ header nav .burger {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     right: 0px;
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    top: 50px;
-    background-color: #202020;
-    border-radius: 0px 0px 20px 20px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    display: none;
   }
   .nav_container nav ul li {
     padding: 15px 15px;
     font-size: 15px;
     margin: 0px 0px;
-  }
-  .nav_container nav .burger {
-    border: 1px solid #d93202;
-    border-radius: 8px;
-    margin: 0px 15px;
-    display: block;
-    background-color: transparent;
-  }
-  .nav_container nav .burger:hover {
-    border: 1px solid #a82704;
-  }
-  .nav_container nav .burger:hover div {
-    background-color: #a82704;
-  }
-  .nav_container nav .burger div {
-    width: 30px;
-    height: 3px;
-    background-color: #d93202;
-    margin: 8px;
-    border-radius: 20px;
   }
   .uvod {
     display: none;
