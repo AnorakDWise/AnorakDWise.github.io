@@ -1075,6 +1075,9 @@ header nav .burger {
   .uvod .uvod_fotka img {
     width: 250px;
   }
+  .uvod .uvod_fotka img:hover {
+    width: 260px;
+  }
   .chc {
     display: none;
   }

@@ -20,7 +20,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -45,13 +45,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-mail sent!</title>
+    <title>E-mail odeslán!</title>
   </head>
   <body>
     <div class="validace container">
         <img src="assets/icons/email sent.svg">
-        <h1>Your message has been sent!<br><span id="SB">I'll reply to your e-mail as soon as possible.</span></h1>
-        <a href="index.html" alt="Back to the home page">Back to the home page</a>
+        <h1>Vaše zpráva byla odeslána!<br><span id="SB">Odepíši Vám na e-mail co nejdříve.</span></h1>
+        <a href="index-cs.html" alt="Zpět na úvodní stránku">Zpět na úvodní stránku</a>
     </div>
   </body>
 </html>

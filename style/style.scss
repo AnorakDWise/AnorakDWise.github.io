@@ -995,6 +995,10 @@ header {
 
       img {
         width: 250px;
+
+        &:hover {
+          width: 260px;
+        }
       }
     }
   }
