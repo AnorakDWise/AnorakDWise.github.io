@@ -1041,7 +1041,39 @@ header nav .burger {
     font-size: 15px;
   }
   .uvod {
-    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .uvod .uvod_text {
+    width: 350px;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .uvod .uvod_text h1 {
+    font-size: 35px;
+    margin: 20px 10px 20px;
+  }
+  .uvod .uvod_text hr {
+    width: 320px;
+  }
+  .uvod .uvod_text p {
+    margin: 20px 10px;
+  }
+  .uvod .uvod_fotka {
+    width: 350px;
+    height: 300px;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .uvod .uvod_fotka img {
+    width: 250px;
   }
   .chc {
     display: none;

@@ -961,8 +961,42 @@ header {
       }
     }
   }
+
   .uvod {
-    display: none;
+    flex-direction: column;
+    align-items: baseline;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+    .uvod_text {
+      width: 350px;
+      height: 300px;
+      border-radius: 20px 20px 0px 0px;
+
+      h1 {
+        font-size: 35px;
+        margin: 20px 10px 20px;
+      }
+
+      hr {
+        width: 320px;
+      }
+
+      p {
+        margin: 20px 10px;
+      }
+    }
+
+    .uvod_fotka {
+      width: 350px;
+      height: 300px;
+      border-radius: 0px 0px 20px 20px;
+
+      img {
+        width: 250px;
+      }
+    }
   }
 
   .chc {
