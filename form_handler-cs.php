@@ -48,7 +48,7 @@
     <title>E-mail odeslán!</title>
   </head>
   <body>
-    <div class="validace container">
+  <div class="validace container">
         <img src="assets/icons/email sent.svg">
         <h1>Vaše zpráva byla odeslána!<br><span id="SB">Odepíši Vám na e-mail co nejdříve.</span></h1>
         <a href="index-cs.html" alt="Zpět na úvodní stránku">Zpět na úvodní stránku</a>

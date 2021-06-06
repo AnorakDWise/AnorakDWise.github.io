@@ -48,7 +48,7 @@
     <title>E-mail sent!</title>
   </head>
   <body>
-    <div class="validace container">
+  <div class="validace container">
         <img src="assets/icons/email sent.svg">
         <h1>Your message has been sent!<br><span id="SB">I'll reply to your e-mail as soon as possible.</span></h1>
         <a href="index.html" alt="Back to the home page">Back to the home page</a>
