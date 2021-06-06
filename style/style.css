@@ -1020,6 +1020,7 @@ header nav .burger {
 }
 
 @media screen and (max-width: 1170px) {
+  /*index.html*/
   .nav_container {
     width: 360px;
   }
@@ -1155,6 +1156,59 @@ header nav .burger {
   }
   .pata .copyright2 {
     display: block;
+  }
+  /*o mne.html*/
+  .summarize {
+    width: 340px;
+  }
+  .summarize .zivot {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .summarize .zivot img {
+    width: 340px;
+  }
+  .summarize .zivot p {
+    width: 340px;
+  }
+  .interest-banners {
+    width: 350px;
+  }
+  .interest-banners .banners {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .interest-banners .banners .banner {
+    width: 350px;
+  }
+  .interest-banners .banners .banner .banner-content h3 {
+    font-size: 25px;
+  }
+  .interest-banners .banners .banner .banner-content .banner-obrazek img {
+    padding-bottom: 50px;
+  }
+  .my-projects {
+    width: 340px;
+  }
+  .my-projects h1 {
+    font-size: 35px;
+  }
+  .my-projects .web-cards .card-element {
+    width: 340px;
+  }
+  .my-projects .web-cards .card-element .web-card {
+    width: 340px;
+    background-position: center;
+  }
+  .my-projects .web-cards .card-element .web-card .blur {
+    width: 340px;
   }
 }
 

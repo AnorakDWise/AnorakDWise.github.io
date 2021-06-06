@@ -940,6 +940,9 @@ header {
 }
 
 @media screen and (max-width: 1170px) /*iPhone X*/ {
+
+  /*index.html*/
+
   .nav_container {
     width: 360px;
 
@@ -1077,6 +1080,71 @@ header {
 
     .copyright2 {
       display: block;
+    }
+  }
+
+
+  /*o mne.html*/
+
+  .summarize {
+    width: 340px;
+    
+    .zivot {
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: 340px;
+      }
+
+      p {
+        width: 340px;
+      }
+    }
+  }
+
+  .interest-banners {
+    width: 350px;
+    .banners {
+      flex-direction: column;
+      .banner {
+        width: 350px;
+
+        .banner-content {
+          h3 {
+            font-size: 25px;
+          }
+
+          .banner-obrazek {
+            img {
+              padding-bottom: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .my-projects {
+    width: 340px;
+
+    h1 {
+      font-size: 35px;
+    }
+
+    .web-cards {
+      .card-element {
+        width: 340px;
+
+        .web-card {
+          width: 340px;
+          background-position: center;
+
+          .blur {
+            width: 340px;
+          }
+        }
+      }
     }
   }
 }
