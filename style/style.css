@@ -1278,6 +1278,20 @@ header nav .burger {
   form .formular .name {
     padding-top: 15px;
   }
+  /*validace.html*/
+  .validace {
+    width: 340px;
+    height: 750px;
+  }
+  .validace img {
+    width: 100px;
+  }
+  .validace h1 {
+    font-size: 20px;
+  }
+  .validace a {
+    font-size: 20px;
+  }
 }
 
 /*KONSTRUKCE (DOČASNĚ) -->*/
