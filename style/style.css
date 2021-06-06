@@ -1248,6 +1248,36 @@ header nav .burger {
   .interest .interest_container .interest-text p a {
     font-size: 20px;
   }
+  /*kontakt.html*/
+  form .formular {
+    width: 350px;
+    height: 850px;
+    background-image: url("/assets/images/form (phone).webp");
+  }
+  form .formular h1 {
+    font-size: 30px;
+  }
+  form .formular div {
+    width: 335px;
+  }
+  form .formular div label {
+    font-size: 15px;
+  }
+  form .formular div input {
+    width: 300px;
+  }
+  form .formular div input[placeholder] {
+    font-size: 15px;
+  }
+  form .formular div textarea {
+    width: 300px;
+  }
+  form .formular div textarea[placeholder] {
+    font-size: 15px;
+  }
+  form .formular .name {
+    padding-top: 15px;
+  }
 }
 
 /*KONSTRUKCE (DOČASNĚ) -->*/

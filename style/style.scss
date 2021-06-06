@@ -1188,6 +1188,49 @@ header {
       }
     }
   }
+
+
+  /*kontakt.html*/
+
+  form {
+    .formular {
+      width: 350px;
+      height: 850px;
+      background-image: url("/assets/images/form\ \(phone\).webp");
+
+      h1 {
+        font-size: 30px;
+      }
+
+      div {
+        width: 335px;
+
+        label {
+          font-size: 15px;
+        }
+
+        input {
+          width: 300px;
+
+          &[placeholder] {
+            font-size: 15px;
+          }
+        }
+
+        textarea {
+          width: 300px;
+
+          &[placeholder] {
+            font-size: 15px;
+          }
+        }
+      }
+
+      .name {
+        padding-top: 15px;
+      }
+    }
+  }
 }
 
 /*KONSTRUKCE (DOČASNĚ) -->*/
