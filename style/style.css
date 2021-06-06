@@ -1036,14 +1036,13 @@ header nav .burger {
     width: 45px;
   }
   .nav_container nav ul {
-    position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    right: 15px;
+    padding: 0px;
   }
   .nav_container nav ul li {
     padding: 15px 15px;

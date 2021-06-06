@@ -959,10 +959,9 @@ header {
         }
       }
       ul {
-        position: fixed;
         display: flex;
         align-items: center;
-        right: 15px;
+        padding: 0px;
 
         li {
           padding: 15px 15px;
