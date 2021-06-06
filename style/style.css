@@ -1036,7 +1036,7 @@ header nav .burger {
     width: 45px;
   }
   .nav_container nav ul {
-    position: absolute;
+    position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

@@ -943,7 +943,7 @@ header {
   }
 }
 
-@media screen and (max-width: 1170px) /*iPhone X*/ {
+@media screen and (max-width: 1170px) /*iPhone 12*/ {
   /*index.html*/
 
   .nav_container {
@@ -959,7 +959,7 @@ header {
         }
       }
       ul {
-        position: absolute;
+        position: fixed;
         display: flex;
         align-items: center;
         right: 15px;
