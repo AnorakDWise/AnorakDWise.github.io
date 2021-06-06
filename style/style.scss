@@ -473,6 +473,10 @@ header {
       align-items: center;
       justify-content: space-around;
 
+      .vl {
+        display: none;
+      }
+
       img {
         width: 500px;
         filter: drop-shadow(0px 0px 15px black);
@@ -940,7 +944,6 @@ header {
 }
 
 @media screen and (max-width: 1170px) /*iPhone X*/ {
-
   /*index.html*/
 
   .nav_container {
@@ -1084,12 +1087,11 @@ header {
     }
   }
 
-
   /*o mne.html*/
 
   .summarize {
     width: 340px;
-    
+
     .zivot {
       flex-direction: column;
       align-items: center;
@@ -1144,6 +1146,40 @@ header {
           .blur {
             width: 340px;
           }
+        }
+      }
+    }
+  }
+
+  /*interests*/
+
+  .interest {
+    width: 350px;
+
+    .interest_container {
+      h1 {
+        font-size: 40px;
+      }
+
+      .interest-text {
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 0px;
+        
+        .vl {
+          display: block;
+          height: 2px;
+          width: 335px;
+          background-color: $cerna-light;
+          margin: 35px 0px;
+        }
+
+        img {
+          width: 340px;
+        }
+
+        p {
+          width: 330px;
         }
       }
     }
