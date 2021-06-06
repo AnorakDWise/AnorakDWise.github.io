@@ -1245,6 +1245,9 @@ header nav .burger {
   .interest .interest_container .interest-text p {
     width: 330px;
   }
+  .interest .interest_container .interest-text p a {
+    font-size: 20px;
+  }
 }
 
 /*KONSTRUKCE (DOČASNĚ) -->*/
