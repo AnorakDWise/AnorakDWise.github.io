@@ -314,6 +314,10 @@ header {
     height: 100px;
     background-color: $cerna;
   }
+
+  .copyright2 {
+    display: none;
+  }
 }
 
 /*O MNĚ*/
@@ -1009,17 +1013,71 @@ header {
     align-items: center;
 
     .chc_logo {
-      margin-bottom: 40px;
+      margin-bottom: 60px;
+    }
+
+    .chc_text {
+      text-align: center;
     }
   }
   .animace {
-    width: 340px;
+    width: 350px;
+    background-image: url("/assets/images/uvod\ background.webp");
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 20px;
+
     .github {
-      width: 340px;
+      width: 350px;
+      background-image: url("/assets/images/github\ background\ \(phone\).webp");
+      height: 600px;
+      justify-content: flex-end;
+      display: flex;
+      flex-direction: column;
+
+      .github_text {
+        text-align: left;
+        margin-bottom: 15px;
+      }
     }
   }
   .pata {
-    display: none;
+    flex-direction: column;
+    text-align: center;
+
+    .vl {
+      height: 2px;
+      width: 320px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+
+    .ikony {
+      .ikona {
+        width: 35px;
+      }
+    }
+
+    .odkazy {
+      text-align: center;
+      .footer_text {
+        text-align: center;
+      }
+    }
+
+    .copyright1 {
+      display: none;
+    }
+
+    .copyright2 {
+      display: block;
+    }
   }
 }
 
