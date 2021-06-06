@@ -984,7 +984,7 @@ header {
       }
 
       p {
-        margin: 20px 10px;
+        margin: 20px;
       }
     }
 
@@ -1004,10 +1004,19 @@ header {
   }
 
   .chc {
-    display: none;
+    flex-direction: column;
+    width: 335px;
+    align-items: center;
+
+    .chc_logo {
+      margin-bottom: 40px;
+    }
   }
   .animace {
-    display: none;
+    width: 340px;
+    .github {
+      width: 340px;
+    }
   }
   .pata {
     display: none;

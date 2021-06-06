@@ -1065,7 +1065,7 @@ header nav .burger {
     width: 320px;
   }
   .uvod .uvod_text p {
-    margin: 20px 10px;
+    margin: 20px;
   }
   .uvod .uvod_fotka {
     width: 350px;
@@ -1079,10 +1079,23 @@ header nav .burger {
     width: 260px;
   }
   .chc {
-    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 335px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .chc .chc_logo {
+    margin-bottom: 40px;
   }
   .animace {
-    display: none;
+    width: 340px;
+  }
+  .animace .github {
+    width: 340px;
   }
   .pata {
     display: none;
